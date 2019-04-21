@@ -11,7 +11,7 @@ body {
 div#nav-wrap {
   background-color: #c9af98;
   overflow: hidden;
-  border-radius: 8px;
+  border-bottom-left-radius: 20px;
 }
 
 #home-wrap {
