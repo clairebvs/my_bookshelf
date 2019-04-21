@@ -4,13 +4,14 @@ html {
 }
 
 body {
+  margin: 0px;
   min-height: 100%;
 }
 
-#nav-wrap {
+div#nav-wrap {
   background-color: #c9af98;
   overflow: hidden;
-  border-radius: 2px;
+  border-radius: 8px;
 }
 
 #home-wrap {
