@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+}
+
+div#nav-wrap {
+  background-color: #c9af98;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+}
+
+#home-wrap {
+  border-right: 4px solid #3a4660;
+  margin-left: 20px;
+}
+
+#nav-wrap a {
+  float: left;
+  display: block;
+  color: #3a4660;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+
+#nav-wrap a:hover {
+  background-color: #ddd;
+  color: black;
+}
