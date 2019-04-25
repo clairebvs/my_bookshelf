@@ -34,3 +34,34 @@ div#nav-wrap {
   background-color: #ddd;
   color: black;
 }
+
+#books {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#books-list {
+  font-family: "Cabin", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#books-list td, #books-list th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#books-list tr:nth-child(even){background-color: #c9af98;}
+
+#books-list tr:hover {background-color: #C4D6B0;}
+
+#books-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #c9af98;
+  color: #3a4660;
+  text-decoration: underline;
+}
