@@ -51,14 +51,18 @@ div#nav-wrap {
   font-family: "Cabin", sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color: #3a4660;
 }
 
 #books-list td, #books-list th {
-    border: 1px solid #ddd;
+    border: 1px solid;
     padding: 16px;
+    border-color: #ed8a63;
+    border-width: medium;
 }
 
-#books-list tr:nth-child(even){background-color: #c9af98;}
+#books-list tr:nth-child(even) {background-color: white;}
+#books-list tr:nth-child(odd) {background-color: white;}
 
 #books-list tr:hover {background-color: #C4D6B0;}
 
@@ -66,7 +70,17 @@ div#nav-wrap {
   padding-top: 18px;
   padding-bottom: 18px;
   text-align: left;
-  background-color: #c9af98;
+  background-color: white;
   color: #3a4660;
   text-decoration: underline;
+  border-color: #ed8a63;
+  border-width: thick;
+}
+
+#user-books {
+  border-radius: 30px;
+}
+
+#bottom-image {
+  height: 200px;
 }
