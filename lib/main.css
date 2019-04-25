@@ -36,7 +36,7 @@ div#nav-wrap {
 }
 
 #books {
-  margin-top: 40px;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -50,7 +50,7 @@ div#nav-wrap {
 
 #books-list td, #books-list th {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 16px;
 }
 
 #books-list tr:nth-child(even){background-color: #c9af98;}
@@ -58,8 +58,8 @@ div#nav-wrap {
 #books-list tr:hover {background-color: #C4D6B0;}
 
 #books-list th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   text-align: left;
   background-color: #c9af98;
   color: #3a4660;
