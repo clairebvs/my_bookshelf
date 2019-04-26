@@ -10,10 +10,28 @@
 <body>
   <div id='nav-wrap'>
     <a id='home-wrap' href='#home'>MyBookshelf</a>
-    <a href='#shelves'>Shelves</a>
+    <a id='shelves' href='#shelves'>Shelves</a>
     <a href='#book+'>Book +</a>
   </div>
 
+  <div id='books'>
+    <div id='user-books'>
+      <table id='books-list'>
+      <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Shelf</th>
+      </tr>
+      <tr>
+        <td class='book-number' style="display: none"> </td>
+        <td class='book-title' style="display: none"> </td>
+        <td class='book-author' style="display: none"> </td>
+        <td class='book-shelf' style="display: none"> </td>
+      </tr>
+    </table>
+    </div>
+  </div>
 
     <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
