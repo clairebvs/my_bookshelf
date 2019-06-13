@@ -11,7 +11,25 @@
   <div id='nav-wrap'>
     <a id='home-wrap' href='#home'>MyBookshelf</a>
     <a id='shelves' href='#shelves'>Shelves</a>
-    <a href='#book+'>Book +</a>
+    <a href='#book+' class="open-button" onclick="addBook()">Book +</a>
+  </div>
+
+  <div class="form-popup" id="addBookForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>Add Book</h1>
+
+      <label for="title"><b>Title</b></label>
+      <input type="text" placeholder="Enter Title" name="title" required>
+
+      <label for="author"><b>Author</b></label>
+      <input type="text" placeholder="Enter Author" name="author" required>
+
+      <label for="shelf"><b>Shelf</b></label>
+      <input type="text" placeholder="Enter Shelf" name="author" required>
+
+      <button type="submit" class="btn">Add Book</button>
+      <button type="button" class="btn cancel" onclick="closeBookForm()">Close</button>
+    </form>
   </div>
 
   <div id='books'>
